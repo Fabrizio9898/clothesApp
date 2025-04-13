@@ -1,0 +1,44 @@
+<button id="menu-button" class="flex ml-auto mr-2 mt-2">
+    <div class="bg-black"></div>
+    <div class="bg-black"></div>
+    <div class="bg-black"></div>
+  </button>
+  
+  <style is:inline>
+    button {
+      flex-direction: column;
+      width: 3rem;
+      border: 0;
+      background: transparent;
+      gap: 0.65rem;
+    }
+  
+    button > div {
+      height: 2px;
+      width: 100%;
+      border-radius: 5px;
+      transition: all 0.5s;
+      transform-origin: left;
+    }
+  
+    /* Efecto cuando el botón está activo */
+    button.active div:first-child {
+      transform: rotate(31deg);
+    }
+  
+    button.active div:nth-child(2) {
+      opacity: 0;
+    }
+  
+    button.active div:last-child {
+      transform: rotate(-33deg);
+    }  
+  </style>
+  
+
+  <script is:inline>
+    const btn = document.getElementById('menu-button');
+    btn.addEventListener('click', () => {
+      btn.classList.toggle('active');
+    });
+  </script>

@@ -1,0 +1,108 @@
+[
+    {
+      "categoria": "tops",
+      "productos": [
+        {
+          "nombre": "Top Deportivo Rosa",
+          "talles": ["S", "M", "L"],
+          "colores": ["rosa", "negro", "blanco"],
+          "descripcion": "Top cómodo ideal para entrenar o uso diario.",
+          "precio": 8499,
+          "fotos": ["https://images.unsplash.com/photo-1602810312635-f5b6b714a8e9?auto=format&fit=crop&w=800&q=80"]
+        },
+        {
+          "nombre": "Top Canelado Verde",
+          "talles": ["XS", "S", "M"],
+          "colores": ["verde oliva", "negro"],
+          "descripcion": "Top corto con textura canelada y fit al cuerpo.",
+          "precio": 7199,
+          "fotos": ["https://images.unsplash.com/photo-1593032465175-9fc1c881f568?auto=format&fit=crop&w=800&q=80"]
+        }
+      ]
+    },
+    {
+      "categoria": "remeras",
+      "productos": [
+        {
+          "nombre": "Remera Oversize Blanca",
+          "talles": ["S", "M", "L", "XL"],
+          "colores": ["blanco", "negro", "gris"],
+          "descripcion": "Remera estilo urbano oversize 100% algodón.",
+          "precio": 6999,
+          "fotos": ["https://images.unsplash.com/photo-1623276526597-7b3eacecc3ff?auto=format&fit=crop&w=800&q=80"]
+        },
+        {
+          "nombre": "Remera Estampada Luna",
+          "talles": ["M", "L"],
+          "colores": ["negro", "azul oscuro"],
+          "descripcion": "Remera con estampado minimalista de fases lunares.",
+          "precio": 7599,
+          "fotos": ["https://images.unsplash.com/photo-1603571448363-d4b35f6a1be3?auto=format&fit=crop&w=800&q=80"]
+        }
+      ]
+    },
+    {
+      "categoria": "buzos",
+      "productos": [
+        {
+          "nombre": "Buzo Canguro Beige",
+          "talles": ["M", "L", "XL"],
+          "colores": ["beige", "gris", "negro"],
+          "descripcion": "Buzo canguro con capucha y bolsillo frontal.",
+          "precio": 10499,
+          "fotos": ["https://images.unsplash.com/photo-1618477462044-71f48ee4f6d7?auto=format&fit=crop&w=800&q=80"]
+        },
+        {
+          "nombre": "Buzo Crop Lila",
+          "talles": ["S", "M"],
+          "colores": ["lila", "blanco"],
+          "descripcion": "Buzo crop fit con tela suave y moderna.",
+          "precio": 9499,
+          "fotos": ["https://images.unsplash.com/photo-1602810312234-7af27a9ad3a4?auto=format&fit=crop&w=800&q=80"]
+        }
+      ]
+    },
+    {
+      "categoria": "pantalones",
+      "productos": [
+        {
+          "nombre": "Pantalón Cargo Negro",
+          "talles": ["S", "M", "L"],
+          "colores": ["negro", "verde militar"],
+          "descripcion": "Pantalón cargo de gabardina con múltiples bolsillos.",
+          "precio": 11499,
+          "fotos": ["https://images.unsplash.com/photo-1612423284934-d7bc5840b7db?auto=format&fit=crop&w=800&q=80"]
+        },
+        {
+          "nombre": "Jean Mom Celeste",
+          "talles": ["XS", "S", "M", "L"],
+          "colores": ["celeste", "azul clásico"],
+          "descripcion": "Jean estilo mom fit con cintura alta.",
+          "precio": 11999,
+          "fotos": ["https://images.unsplash.com/photo-1614315513325-2117c1a0e656?auto=format&fit=crop&w=800&q=80"]
+        }
+      ]
+    },
+    {
+      "categoria": "polleras",
+      "productos": [
+        {
+          "nombre": "Pollera Jean Negra",
+          "talles": ["S", "M", "L"],
+          "colores": ["negro"],
+          "descripcion": "Pollera de jean clásica con botones frontales.",
+          "precio": 8799,
+          "fotos": ["https://images.unsplash.com/photo-1598032894021-2b7baf3d3d8e?auto=format&fit=crop&w=800&q=80"]
+        },
+        {
+          "nombre": "Pollera Plisada Beige",
+          "talles": ["S", "M"],
+          "colores": ["beige", "rosado"],
+          "descripcion": "Pollera plisada con corte elegante y suave caída.",
+          "precio": 9999,
+          "fotos": ["https://images.unsplash.com/photo-1583322238442-bf7d7d7b7fdd?auto=format&fit=crop&w=800&q=80"]
+        }
+      ]
+    }
+  ]
+  
