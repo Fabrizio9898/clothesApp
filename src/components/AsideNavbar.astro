@@ -1,4 +1,4 @@
-<nav class="pt-20 " >
+<nav class="pt-20 text-amber-50">
   <ul class="">
     <li><a href="">Ultimos ingresos</a></li>
     <li><a href="">Remeras</a></li>
@@ -11,13 +11,17 @@
 </nav>
 
 <style>
-    nav{
-        width: 25%;
-        height: 100vh;
-        background-color: red;
-        display: flex;
-        justify-content: center;
-    }
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 25%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    z-index: 10; /* Asegura que esté por encima del fondo */
+
+  }
   ul {
     width: 100%;
     list-style: none;
