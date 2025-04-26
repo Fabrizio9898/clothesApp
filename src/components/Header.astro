@@ -1,35 +1,43 @@
 ---
 import MenuButton from "./MenuButton.astro";
-import NavIcons from "./NavIcons.astro";
+import SearchBar from "../icons/SearchBar.astro";
+import Profile from "../icons/Profile.astro";
+import Cart from "../icons/Cart.astro";
 ---
 
-<header class="w-full fixed top-0 z-10 flex items-center mx-auto 
-">
-<nav class="flex px-3 justify-between
-items-center w-full mx-5 ">
-
-
-    <div >
+<header
+  class="w-full fixed top-0 z-30
+  py-4 px-10 
+  flex items-center justify-between text-white"
+>
+  <div class="flex flex-grow basis-0">
     <MenuButton />
-    </div>
+  </div>
+
+  <div>
+    <img src="logo.svg" alt="" class="h-20 w-50" />
+  </div>
 
 
-
-<h1>titulo</h1>
-
-
-<div>
-  <NavIcons/>  
-</div>
-
-
-</nav>
-
+  <nav class="flex flex-grow justify-end basis-0">
+    <ul class="flex [&>li]:inline-block [&>li]:py-2">
+        <li><button
+            class="inline-flex items-center justify-center p-0 m-0 w-auto h-auto appearance-none border-none bg-transparent"
+            transition:persist
+          >
+            <SearchBar />
+          </button></li>
+        <li><button
+            class="inline-flex items-center justify-center p-0 m-0 w-auto h-auto appearance-none border-none bg-transparent"
+            transition:persist
+          ><Profile/></button></li>
+        <li>
+            <button
+            class="inline-flex items-center justify-center p-0 m-0 w-auto h-auto appearance-none border-none bg-transparent"
+            transition:persist
+          >
+            <Cart/></button></li>
+    </ul>
+  </nav>
 </header>
 
-
-
-<style is:inline>
-
-
-</style>

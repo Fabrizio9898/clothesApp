@@ -1,13 +1,19 @@
 ---
-import AsideNavbar from '../components/AsideNavbar.astro';
-import Background from '../components/Background.astro';
-import Layout from '../layouts/Layout.astro';
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header.astro";
+import Hero from "../components/Hero.astro";
+import SideBar from "../components/SideBar.astro";
 ---
 
-<Layout title="Welcome to Astro" description="Astro is a static site generator that allows you to build fast, modern websites using your favorite frameworks and libraries.">
-	<AsideNavbar/>
-	<Background/>
-	<main>
+<Layout
+  title="Welcome to Astro"
+  description="Astro is a static site generator that allows you to build fast, modern websites using your favorite frameworks and libraries."
+>
 
-	</main>
+<Header/>
+  <main>
+<SideBar/>
+<Hero/>
+
+  </main>
 </Layout>
