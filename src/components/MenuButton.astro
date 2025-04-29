@@ -1,10 +1,10 @@
-<button id="menu-button" class="flex">
+<button id="menu-button" class="flex cursor-pointer">
     <div class="bg-white"></div>
     <div class="bg-white"></div>
     <div class="bg-white"></div>
   </button>
   
-  <style is:inline>
+  <style>
     button {
       flex-direction: column;
       width: 3rem;
@@ -36,9 +36,11 @@
   </style>
   
 
-  <script is:inline>
+  <script>
     const btn = document.getElementById('menu-button');
-    btn.addEventListener('click', () => {
-      btn.classList.toggle('active');
-    });
+    if (btn) {
+      btn.addEventListener('click', () => {
+        btn.classList.toggle('active');
+      });
+    }
   </script>

@@ -6,38 +6,46 @@ import Cart from "../icons/Cart.astro";
 ---
 
 <header
-  class="w-full fixed top-0 z-30
-  py-4 px-10 
+  class="w-full fixed top-0 z-100
+  mx-auto mt-2
   flex items-center justify-between text-white"
 >
-  <div class="flex flex-grow basis-0">
+  <div class="flex flex-grow basis-0 px-10 ">
     <MenuButton />
   </div>
 
-  <div>
-    <img src="logo.svg" alt="" class="h-20 w-50" />
+  <div class="flex-none">
+    <img src="logo.svg" alt="" class="h-20 w-auto object-contain" />
   </div>
 
-
-  <nav class="flex flex-grow justify-end basis-0">
-    <ul class="flex [&>li]:inline-block [&>li]:py-2">
-        <li><button
-            class="inline-flex items-center justify-center p-0 m-0 w-auto h-auto appearance-none border-none bg-transparent"
-            transition:persist
-          >
-            <SearchBar />
-          </button></li>
-        <li><button
-            class="inline-flex items-center justify-center p-0 m-0 w-auto h-auto appearance-none border-none bg-transparent"
-            transition:persist
-          ><Profile/></button></li>
-        <li>
-            <button
-            class="inline-flex items-center justify-center p-0 m-0 w-auto h-auto appearance-none border-none bg-transparent"
-            transition:persist
-          >
-            <Cart/></button></li>
+  <nav class="flex flex-grow justify-end basis-0 pr-10">
+    <ul class="flex [&>li]:inline-block [&>li]:py-2 gap-x-4">
+      <li>
+        <button
+          class="inline-flex items-center justify-center p-0 m-0 w-auto h-auto appearance-none border-none bg-transparent"
+          transition:persist
+        >
+          <SearchBar />
+        </button>
+      </li>
+      <li>
+        <button
+          class="inline-flex items-center justify-center p-0 m-0 w-auto h-auto appearance-none border-none bg-transparent"
+          transition:persist><Profile /></button>
+      </li>
+      <li>
+        <button
+          class="inline-flex items-center justify-center p-0 m-0 w-auto h-auto appearance-none border-none bg-transparent"
+          transition:persist
+        >
+          <Cart /></button>
+      </li>
     </ul>
   </nav>
 </header>
 
+
+<style>
+  button:hover{
+cursor:pointer  }
+</style>
