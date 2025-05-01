@@ -1,10 +1,9 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import Header from "../components/Header.astro";
 import Hero from "../components/Hero.astro";
 import SideBar from "../components/SideBar.astro";
 import SectionContainer from "../components/Section_Container.astro";
-import Carrusel from "../components/Carrusel.astro";
+import Models from "../components/Models.astro";
 import Slider1 from "../components/Sliders/Slider1.astro";
 ---
 
@@ -13,14 +12,14 @@ import Slider1 from "../components/Sliders/Slider1.astro";
   description="Astro is a static site generator that allows you to build fast, modern websites using your favorite frameworks and libraries."
 >
 <main>
-    <SideBar />
+    <!-- <SideBar /> -->
     <Hero />
   </main>
   <Slider1/>
   
   <div class="space-y-24">
     <SectionContainer id="carrusel">
-      <Carrusel />
+      <Models />
     </SectionContainer>
   </div>
 </Layout>
